@@ -6,7 +6,7 @@ const delay = ms => {
     return new Promise((resolve, reject) =>
     {
     setTimeout(() => {
-        resolve(`${ms}`),
+        resolve(ms),
         reject('Промис выполнился с ошибкой')
   }, ms);
 
